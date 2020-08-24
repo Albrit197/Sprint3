@@ -1,0 +1,23 @@
+{
+    "name": "sraka/sprint3",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saulius Rakauskas",
+            "email": "me.rakauskas@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "files": [
+                "src/models/Product.php",
+                "src/models/Student.php",
+                "src/models/User.php",
+                "src/models/Customer.php"
+            ]
+    }
+
+}
